@@ -50,7 +50,7 @@ Un usuario/a puede crear playlists con los videos que le gustan. Cada playlist t
 
 Un usuario/a puede escribir comentarios en un video determinado. Cada comentario está identificado por un identificador único: El texto del comentario, la fecha/hora en la cual se realizó.
 
-## Un usuario/a puede marcar un comentario como me gusta o no me gusta. Habrá que llevar un registro de los usuarios/as que han marcado un comentario como me gusta/no me gusta, y en que fecha/hora lo hicieron.
+Un usuario/a puede marcar un comentario como me gusta o no me gusta. Habrá que llevar un registro de los usuarios/as que han marcado un comentario como me gusta/no me gusta, y en que fecha/hora lo hicieron.
 
 Requisitos
 Para verificar que tu diseño es correcto, efectúa las siguientes consultas y comprueba que devuelven resultados correctos:
