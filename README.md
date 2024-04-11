@@ -1,5 +1,18 @@
 # Entrega-5.1*-Estructura_dades*-MySQL
 
+Este repositorio contiene ejercicios de modelado de bases de datos relacionales utilizando MySQL.
+
+Para seedear la base de datos y ejecutar los scripts proporcionados, sigue estos pasos:
+
+1. Crear la base de datos: Primero, asegúrate de tener un servidor MySQL en tu entorno local o en un servidor remoto. Luego, crea una nueva base de datos para este ejercicio utilizando el siguiente comando SQL:
+
+```sh
+CREATE DATABASE nombre_de_tu_base_de_datos;
+```
+2. 
+
+
+
 # Nivel 1
 
 - Ejercicio 1 - Óptica
