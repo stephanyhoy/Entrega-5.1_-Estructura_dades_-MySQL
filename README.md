@@ -1,17 +1,23 @@
-# Entrega-5.1*-Estructura_dades*-MySQL
+## Estructura de datos MYSQL
 
-Este repositorio contiene ejercicios de modelado de bases de datos relacionales utilizando MySQL.
+Este repositorio contiene ejercicios de modelado de bases de datos relacionales utilizando MySQL. Se ha realizado con el gestor de base de datos DBeaver.
+
+Sprint 5.1 -Estructura_dades-MySQL de IT-Academy en la especialización de Node.js
 
 Para seedear la base de datos y ejecutar los scripts proporcionados, sigue estos pasos:
 
-1. Crear la base de datos: Primero, asegúrate de tener un servidor MySQL en tu entorno local o en un servidor remoto. Luego, crea una nueva base de datos para este ejercicio utilizando el siguiente comando SQL:
+1. Clona este repositorio en tu máquina local:
 
 ```sh
-CREATE DATABASE nombre_de_tu_base_de_datos;
+git clone https://github.com/stephanyhoy/Entrega-5.1_-Estructura_dades_-MySQL.git
+
 ```
-2. 
 
+2. Importar la estructura de la base de datos: Utiliza el archivo SQL proporcionados en la carpeta Script.sql de cada ejercicio para importar la estructura de la base de datos en tu servidor MySQL local.
 
+3. Utiliza los scripts proporcionados para realizar las comprobaciones que se solicitan en cada uno de los ejercicios.
+
+4. Los diagramas de las estructuras de las tablas correspondientes a cada una de las bases de datos las encontraran en las respectivas carpetas denominadas diagrama.
 
 # Nivel 1
 
@@ -25,6 +31,9 @@ La política de compras de la óptica se basa que las gafas de una marca se comp
 De los clientes quiere almacenar: El nombre, la dirección postal, el teléfono, el correo electrónico, la fecha de registro.
 Cuando llega uno cliente nuevo, almacenar el cliente que le ha recomendado el establecimiento (siempre que alguien le haya recomendado).
 Nuestro sistema tendrá que indicar quién ha sido el empleado/da que ha vendido cada gafa. Define un periodo de tiempo de ventas.
+
+- Queries de verificación Optica:
+  Para realizar estas verificaciones, puedes encontrar los scripts de los queries en el directorio Optica/Scripts
 
 - Ejercicio 2 - Pizzería
   Te han contratado para diseñar una web que permita hacer pedidos de comer a domicilio por Internet.
@@ -43,6 +52,9 @@ De cada categoría se almacena un identificador único y un nombre. Un pedido es
 
 En una tienda pueden trabajar muchos empleados/das y un empleado/da solo puede trabajar en una tienda. De cada empleado/da, se almacena un identificador único: Nombre, apellidos, NIF, Teléfono.
 Si trabaja como cocinero/a o repartidor/a. Para los pedidos de reparto a domicilio interesa guardar quién es el repartidor/a que hace la entrega del pedido y la data/hora del momento de la entrega.
+
+- Queries de verificación Pizzeria:
+  Para realizar estas verificaciones, puedes encontrar los scripts de los queries en el directorio Pizzeria/Scripts
 
 # Nivel 2
 
@@ -64,6 +76,9 @@ Un usuario/a puede crear playlists con los videos que le gustan. Cada playlist t
 Un usuario/a puede escribir comentarios en un video determinado. Cada comentario está identificado por un identificador único: El texto del comentario, la fecha/hora en la cual se realizó.
 
 Un usuario/a puede marcar un comentario como me gusta o no me gusta. Habrá que llevar un registro de los usuarios/as que han marcado un comentario como me gusta/no me gusta, y en que fecha/hora lo hicieron.
+
+- Queries de verificación YouTube:
+  Para realizar estas verificaciones, puedes encontrar los scripts de los queries en el directorio YouTube/Scripts
 
 Requisitos
 Para verificar que tu diseño es correcto, efectúa las siguientes consultas y comprueba que devuelven resultados correctos:
