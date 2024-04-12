@@ -86,8 +86,8 @@ Para verificar que tu diseño es correcto, efectúa las siguientes consultas y c
 Óptica:
 
 Lista el total de compras de un cliente/a.
-Lista las diferentes ojeras que ha vendido un empleado durante un año.
-Lista los diferentes proveedores que han suministrado ojeras vendidas con éxito por la óptica.
+Lista las diferentes gafas que ha vendido un empleado durante un año.
+Lista los diferentes proveedores que han suministrado gafas vendidas con éxito por la óptica.
 
 Pizzería:
 
