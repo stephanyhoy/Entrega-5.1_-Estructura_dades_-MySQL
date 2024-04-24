@@ -91,5 +91,5 @@ Lista los diferentes proveedores que han suministrado gafas vendidas con éxito 
 
 Pizzería:
 
-Lista cuántos productos de tipos “Bebidas”. se han vendido en una determinada localidad.
-Lista cuántos pedidos ha efectuado un determinado empleado/da.
+Lista cuántos productos de tipos “Bebidas” se han vendido en una determinada localidad.
+Lista cuántos pedidos ha efectuado un determinado empleado/a.
